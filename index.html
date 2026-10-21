@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Nothing loads from anywhere else, and nothing is sent anywhere: the share is read from this page's own link. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<title>A share from Adrak · مشاركة من أدراك</title>
+<meta name="description" content="A lesson, practice, exam, summary or whole subject someone shared from Adrak. مشاركة من أدراك: دروس وتمارين واختبارات وملخصات.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Adrak · أدراك">
+<meta property="og:title" content="A share from Adrak · مشاركة من أدراك">
+<meta property="og:description" content="Open it to see what's inside. افتحها وشوف وش فيها.">
+<meta property="og:image" content="https://snwaf929-cpu.github.io/adrak-share/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="icon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="share.css">
+<script src="share.js" defer></script>
+</head>
+<body>
+<div class="page">
+  <header class="top">
+    <img class="wordmark" src="wordmark.png" alt="Adrak · أدراك" width="131" height="72">
+    <button id="language" class="pill" type="button" hidden></button>
+  </header>
+  <main id="card" class="card" aria-live="polite">
+    <p class="muted">Opening the share… · قاعد أفتح المشاركة…</p>
+    <noscript><p>This page needs JavaScript to read the share in its link. هالصفحة تحتاج JavaScript عشان تقرا المشاركة اللي في الرابط.</p></noscript>
+  </main>
+  <footer id="foot" class="foot"></footer>
+</div>
+</body>
+</html>
